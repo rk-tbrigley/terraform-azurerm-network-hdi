@@ -27,7 +27,7 @@ source_address_prefixes_mgmt = ["168.61.49.99", "23.99.5.239", "168.61.48.131", 
 
 source_address_prefix_resolver = "168.63.129.16" # Required for all HDInsight VNets
 
-source_address_prefixes_mgmt_region = ["52.175.211.210", "52.175.222.222"] # Limit to your specific region, West US 2 in this example
+source_address_prefixes_mgmt_region = [] # Limit to your specific region, https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-management-ip-addresses
 
 # Storage
 storage_account_count = 1 # Change this to the number of storage accounts you want to create for HDInsight
